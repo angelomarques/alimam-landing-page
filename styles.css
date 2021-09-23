@@ -248,6 +248,14 @@ p {
 }
 
 @media (max-width: 1024px) {
+  header span {
+    font-size: 1.8rem;
+  }
+
+  h1 {
+    font-size: 2.4rem;
+  }
+
   .container {
     padding: 32px 48px;
   }
@@ -265,8 +273,16 @@ p {
     padding-top: 72px;
   }
 
+  .about {
+    padding: 32px 24px;
+  }
+
+  .about img {
+    display: none;
+  }
+
   .hero-text {
-    width: 80%;
+    width: 100%;
   }
 
   .public {
@@ -282,5 +298,26 @@ p {
 
   .about-us > div > img {
     width: 450px;
+  }
+}
+
+@media (max-width: 560px) {
+  .imgContainer {
+    width: 188px;
+    height: 117px;
+  }
+
+  .about-us > div > img {
+    width: 220px;
+  }
+
+  .circle-gray {
+    width: 200px;
+    height: 200px;
+    left: -25%;
+  }
+
+  .public {
+    padding: 0px;
   }
 }
